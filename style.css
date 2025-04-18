@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #00f2ff;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 242, 255, 1) 0%,
+    rgba(87, 184, 199, 1) 50%,
+    rgba(83, 196, 237, 1) 100%
+  );
+}
+.container {
+  margin: 100px auto;
+  text-align: center;
+  width: 100%;
+  border: 1px solid black;
+  padding: 20px;
+  width: 330px;
+  border-radius: 20px;
+}
+#textArea {
+  padding: 50px;
+  font-size: large;
+}
+#textArea :placeholder {
+  text-align: left;
+}
+.container p {
+  font-size: larger;
+  font-weight: 600;
+}
+#warningMsg {
+  color: red;
+}
